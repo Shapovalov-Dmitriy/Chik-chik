@@ -1,0 +1,33 @@
+.title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.title__hero {
+    font-size: 54px;
+    max-width: 904px;
+    margin-bottom: 36px;
+}
+.title__price {
+    margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+    .title__hero {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .title__price {
+        font-size: 32px;
+    }
+}
+@media (max-width: 560px) {
+    .title__hero {
+        font-size: 24px;
+        margin-bottom: 16px;
+        max-width: 420px;
+    }
+    .title__price {
+        font-size: 20px;
+    }
+}

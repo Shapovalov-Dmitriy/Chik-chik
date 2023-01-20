@@ -1,0 +1,57 @@
+.price {
+    padding: 62px 0;
+}
+.price__tagline {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.price__wrapper-content {
+    display: flex;
+    gap: 32px;
+}
+.price__wrapper-content::before {
+    content: "";
+    flex-basis: 50%;
+    background: url("../img/price/allef-vinicius-unsplash.jpg") top / cover no-repeat;
+}
+.price__content {
+    flex-basis: 50%;
+}
+.price__data-list {
+    margin-bottom: 40px;
+}
+.price__data-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bfbdb2;
+    padding-bottom: 7px;
+}
+.price__data-row:not(:last-child) {
+    margin-bottom: 24px;
+}
+.price__data-title {
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.price__data-count {
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1;
+}
+@media (max-width: 768px) {
+    .price__wrapper-content::before {
+        content: none;
+    }
+    .price__content {
+        flex-basis: 100%;
+    }
+}
+@media (max-width: 560px) {
+    .price__data-title,
+    .price__data-count {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}

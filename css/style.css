@@ -1,0 +1,36 @@
+/* raleway-regular - cyrillic */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #241d1c;
+    color: #f6f3e3;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    min-width: 320px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+.container {
+    max-width: 1312px;
+    padding: 0 48px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 24px;
+    }
+}
