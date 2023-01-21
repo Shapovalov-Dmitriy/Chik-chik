@@ -3,6 +3,7 @@
     font-size: 40px;
     line-height: 1.2;
     text-transform: uppercase;
+    margin-bottom: 24px;
 }
 .title__hero {
     font-size: 54px;
@@ -14,16 +15,15 @@
 }
 .title__about {
     max-width: 904px;
-    margin-bottom: 24px;
 }
 
 @media (max-width: 768px) {
     .title__hero {
         font-size: 40px;
-        margin-bottom: 24px;
     }
     .title__price,
-    .title__about {
+    .title__about,
+    .title__reserve {
         font-size: 32px;
     }
 }
@@ -34,7 +34,8 @@
         max-width: 420px;
     }
     .title__price,
-    .title__about {
+    .title__about,
+    .title__reserve {
         font-size: 20px;
         margin-bottom: 16px;
     }
